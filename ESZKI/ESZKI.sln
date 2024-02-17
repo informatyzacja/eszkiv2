@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESZKI", "ESZKI.csproj", "{52313CAC-B143-481B-B182-38B30C4B6AE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eszki.Api", "..\Eszki.Api\Eszki.Api.csproj", "{D1241050-6F90-4C61-A119-C8647050466C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52313CAC-B143-481B-B182-38B30C4B6AE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52313CAC-B143-481B-B182-38B30C4B6AE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52313CAC-B143-481B-B182-38B30C4B6AE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52313CAC-B143-481B-B182-38B30C4B6AE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1241050-6F90-4C61-A119-C8647050466C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1241050-6F90-4C61-A119-C8647050466C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1241050-6F90-4C61-A119-C8647050466C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1241050-6F90-4C61-A119-C8647050466C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D533CCE0-D768-40B2-A715-D5AB6D0430EF}
+	EndGlobalSection
+EndGlobal
