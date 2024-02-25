@@ -1,0 +1,14 @@
+CONSOLE COMMANDS
+1. docker pull mysql
+2. docker pull phpmyadmin
+3. create docker-compose.yml (use existing in github)
+4. docker compose up or docker compose up -d (deatached version)
+5. docker compose ps
+6. browse localhost:8080 (phpmyadmin - for data base administration)
+login: root
+passwd: qwerty
+
+
+
+OPTIONAL CMD CONNECT TO DB
+docker compose exec db mysql -u root -p

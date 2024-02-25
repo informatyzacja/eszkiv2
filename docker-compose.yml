@@ -1,0 +1,20 @@
+version: "3"
+services:
+    phpmyadmin:
+        container_name: phpmyadmin
+        ports:
+            - 8080:80
+        image: phpmyadmin
+        environment:
+            - PMA_HOST:db
+        depends_on:
+            - db
+    db:
+        container_name: mySQL
+        image: mysql:latest
+        ports:
+            - '5506:3306'
+        restart: unless-stopped
+        environment:
+            MYSQL_PASSWORD: qwerty
+            MYSQL_ROOT_PASSWORD: qwerty
